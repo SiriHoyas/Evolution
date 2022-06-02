@@ -1,0 +1,286 @@
+/* Media Query for tablet */
+
+@media screen and (min-width: 768px) {
+
+    .post-spesific-container, .about-us-post-container {
+        width: 80vw;   
+    }
+
+    .about-us-post-container h1 {
+        font-size: 1.8em;
+    }
+
+    .add-comment, .button-container {
+        width: 80vw;
+    }
+
+    .post-card {
+        width: 70vw;
+    }
+
+    .filter-button-container, .posts-container {
+        width: 70vw;
+    }
+
+}
+
+/* Media Query for laptop */
+
+@media screen and (min-width: 1024px) {
+
+    .error-message {
+        width: 60vw;
+    }
+    
+    /* --- NAVIGATION BAR --- */
+    .navbar {
+        height: 80px; 
+        box-shadow: none;  
+        position: static; 
+    }
+
+    .menu-icon {
+       display: none;  
+    }
+    
+    .mobile-logo {
+        width: 180px;
+    }
+    
+    .menu-right {
+        flex: 1;
+    }
+
+    .navbar-open {
+        display: revert;
+    }
+
+    .navbar-open ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: var(--main-bg-color);
+        margin: 0;
+        box-shadow: var(--box-shadow);
+        position: relative;
+    }
+    
+    .menu-item {
+        padding: .45rem;
+        font-size: .9em;
+        list-style-type: none;
+    }
+
+    .menu-item:nth-of-type(2) {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    /* --- INDEX --- */
+
+    .newest-posts-container {
+        background-color: var(--card-color);
+        padding: 1rem;
+        padding-top: .4rem;
+        padding-bottom: 1rem;
+        width: 90vw;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    .index-main-content h1 {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        letter-spacing: 2px;
+    }
+
+    .newest-post-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .post-card {
+        flex-direction: column;
+        height: 250px;
+        width: 25vw;
+        background-color: var(--main-bg-color);
+    }
+
+    .thumbnail-img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    .post-content-wrapper {
+        margin-top: 1rem;
+    }
+
+    .prev, .next {
+        display: revert;
+    }
+
+    .slide1,
+    .slide2,
+    .slide3 {
+        display: none;
+        gap: 10px;
+        margin: 0 auto;
+        animation-name: FadeIn;
+        animation-duration: 500ms;
+        transition-timing-function: linear;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    @keyframes FadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .active {
+        display: flex;
+    }
+
+    .new-reviews-container {
+        background-color: var(--card-color);
+        padding: 1rem;
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .new-reviews-container h2 {
+        font-size: 1em;
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+
+    .new-reviews-content {
+      display: flex;
+      justify-content: center;
+    }
+
+    .new-reviews-content .post-card {
+        margin-left: 1rem;
+    }
+
+    .slide-indicator-container {
+        display: flex;
+        justify-content: space-between;
+        width: 3vw;
+    }
+
+    .slide-indicator {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: var(--accent-grey);
+    }
+
+    .indicator-1 {
+        background-color: var(--accent-blue);
+    }
+
+    .long {
+        height: 10px;
+    }
+
+    .short {
+        height: 10px;
+        margin-bottom:1.1rem;
+    }
+
+    /* --- CONTACT --- */
+
+    .contact-form-container {
+        width: 50vw;
+    }
+
+    .contact-form .submit-btn {
+        width: 30%;
+    }
+
+    /* --- BLOG --- */
+
+    .filter-button-container {
+        width: 90vw;
+    }
+
+    .posts-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        width: 90vw;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .posts-card {
+        background-color: var(--card-color);
+        margin-bottom: 1rem;
+    }
+
+    .posts-content-wrapper {
+        padding: 1rem;
+    }
+
+    .post-content-wrapper h2 {
+        font-size: 1em;
+    }
+
+    .post-content-wrapper p {
+        font-size: .7em;
+    }
+
+    .posts-content-wrapper span {
+        color: var(--accent-blue);
+    }
+
+    /* --- POST SPESIFIC --- */
+
+    .post-spesific-container, .about-us-post-container {
+        width: 60vw;   
+    }
+
+    .button-container {
+        width: 60vw;
+    }
+
+    .button-container svg {
+        height: 1rem;
+    }
+
+    .button-container span {
+        font-size: 1em;
+    }
+
+    .post-spesific-container h1 {
+        font-size: 2em;
+    }
+
+    .expanded-img {
+        width: 70vw;
+    }
+
+    .post-spesific-container article {
+        font-size: 1em;
+    }
+
+    .add-comment {
+        width: 60vw;
+    }
+
+    .about-us-post-container {
+        margin-top: 60px;
+    }  
+}
