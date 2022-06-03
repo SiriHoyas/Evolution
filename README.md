@@ -57,5 +57,5 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My LinkedIn page]https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/
-[My Instagram]https://www.instagram.com/sirihoyas/
+[My LinkedIn page] (https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/)
+[My Instagram] (https://www.instagram.com/sirihoyas/)
