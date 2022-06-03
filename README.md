@@ -59,4 +59,4 @@ This is where you can leave your social links for people to contact you, such as
 
 [My Instagram](https://www.instagram.com/sirihoyas/)
 
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/)
