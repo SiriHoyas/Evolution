@@ -1,4 +1,4 @@
-# Your project title
+# Evolution
 
 ![image](https://github.com/SiriHoyas/Evolution-Copy/blob/main/resources/img/evolution%20screen%20shot.png)
 
@@ -57,14 +57,5 @@ Here you can detail any information you want to provide regarding contributing t
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn page] https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/
+[My Instagram] https://www.instagram.com/sirihoyas/
