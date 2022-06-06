@@ -2,24 +2,24 @@
 
 ![image](https://github.com/SiriHoyas/Evolution-Copy/blob/main/resources/img/evolution%20screen%20shot.png)
 
-A simple overview of the use/purpose of the project.
+Evolution was my exam project for my first year at Noroff. The task was to create a blog with a subject of my choice. The site was populated with content from a headless CMS (Wordpress), and built my own front-end.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+For this project i had to add elements that i had never done before. I used my basic knowledge of Javascript to create the following functions:
 
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- Show more function that fetches more posts from the API.
+- A carousel displaying the latest posts, three at a time.
+- A category converter for converting WordPress` numbered categories to the appropriate category name.
+- A filter function to fetch all posts of a category.
+- A modal to expand the image inside a post
+- Posting comments to wordpress.
+- Posting the contact form to wordpress.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- Wordpress REST API
+- Javascript
 
 ## Getting Started
 
@@ -39,24 +39,14 @@ git clone git@github.com:NoroffFEU/portfolio-1-example.git
 npm install
 ```
 
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
-
 ## Contributing
 
 Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
-
-[My Instagram](https://www.instagram.com/sirihoyas/)
+Feel free to contact me here:
 
 [My LinkedIn page](https://www.linkedin.com/in/siri-h%C3%B8y%C3%A5s-2bb74b1a2/)
+
+[My Instagram](https://www.instagram.com/sirihoyas/)
