@@ -21,6 +21,12 @@ For this project i had to add elements that i had never done before. I used my b
 - Wordpress REST API
 - Javascript
 
+## Future Plans
+
+While this project works fine, I do have some idèas for changes I would like to make in the future. 
+
+[You can see the changelog here](https://github.com/SiriHoyas/HeySiri.codes/blob/main/CHANGELOG.md)
+
 ## Getting Started
 
 ### Installing
@@ -31,6 +37,9 @@ For this project i had to add elements that i had never done before. I used my b
 ```bash
 git clone git@github.com:SiriHoyas/Evolution-Copy.git
 ```
+
+2. Open index.html in your favourite modern browser.
+
 
 ## Contact
 
