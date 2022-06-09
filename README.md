@@ -23,14 +23,13 @@ For this project i had to add elements that i had never done before. I used my b
 
 ## Future Plans
 
-While this project works fine, I do have some idèas for changes I would like to make in the future. 
+While this project works fine, I do have some idèas for changes I would like to make in the future.
 
-[You can see the changelog here](https://github.com/SiriHoyas/Evolution-Copy/blob/main/CHANGELOG.md)
+[You can see the planned improvements here](https://github.com/SiriHoyas/Evolution-Copy/blob/main/IMPROVEMENTS.md)
 
 ## Getting Started
 
 ### Installing
-
 
 1. Clone the repo:
 
@@ -39,7 +38,6 @@ git clone git@github.com:SiriHoyas/Evolution-Copy.git
 ```
 
 2. Open index.html in your favourite modern browser.
-
 
 ## Contact
 
